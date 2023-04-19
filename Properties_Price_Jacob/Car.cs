@@ -4,17 +4,16 @@ using Properties_Price_Jacob;
 namespace Properties_Price_Jacob
 {
 	class Car
-	{/// <summary>
-	 ///  Documentaion Documentation Documentaion Documentation Documentaion Documentation
-	 /// </summary>
+	{// initializes a private string variable to assign propperties
 		private string model;
-		// Documentaion Documentation
+		
+		// Assgins properties to athe Model String
 		public string Model
 		{
 			get { return model; }
 			set { model = value; }
 		}
-		// Documentaion Documentation
+		// Initializes and sets properties for a new string Make
 		public string Make
 		{
 			get; set;
